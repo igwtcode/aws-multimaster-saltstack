@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "commonjs",
+    "lib": ["es2020"],
+    "forceConsistentCasingInFileNames": true,
+    "pretty": true,
+    "declaration": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": false,
+    "inlineSourceMap": true,
+    "inlineSources": true,
+    "experimentalDecorators": true,
+    "strictPropertyInitialization": false,
+    "typeRoots": ["./node_modules/@types"],
+    "baseUrl": ".",
+    "paths": {
+      "@src/*": ["src/*"],
+      "/opt/nodejs/http-utils": ["src/lambda/layers/http-utils/nodejs/http-utils"],
+      "/opt/nodejs/helpers": ["src/lambda/layers/helpers/nodejs/helpers"]
+    }
+  },
+  "exclude": ["node_modules", "**/node_modules/*", "cdk.out"]
+}

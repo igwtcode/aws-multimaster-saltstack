@@ -1,0 +1,1 @@
+Files in this folder would be uploaded to salt master s3 bucket

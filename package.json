@@ -1,0 +1,31 @@
+{
+  "name": "aws-multimaster-saltstack",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.109",
+    "@types/node": "18.11.18",
+    "@types/object-hash": "^3.0.2",
+    "@types/prettier": "2.7.2",
+    "aws-cdk": "2.59.0",
+    "dotenv": "^16.0.3",
+    "esbuild": "^0.16.15",
+    "ts-node": "^10.9.1",
+    "tsconfig-paths": "^4.1.2",
+    "typescript": "~4.9.4",
+    "object-hash": "^3.0.0",
+    "yaml": "^2.2.1"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "2.59.0",
+    "aws-lambda": "^1.0.7",
+    "aws-sdk": "^2.1290.0",
+    "constructs": "^10.1.212",
+    "source-map-support": "^0.5.21"
+  }
+}
